@@ -44,7 +44,7 @@ img {max-width: 100%;display: block;}
 
 /*Responsivo Experiência*/
 @media (max-width: 800px) {.experiencia {grid-template-columns: 1fr;gap: 40px;}.experiencia .subtitulo {color: #141414;}.experiencia-texto {font-size: 1.25rem;}.empresa-ano {position: initial;order: 1;width: initial;text-align: left;}}
-@media (max-width: 400px) {.empresa {grid-template-columns: 1fr;}.experiencia .subtitulo {font-size: 3rem;}}
+@media (max-width: 500px) {.empresa {grid-template-columns: 1fr;}.experiencia .subtitulo {font-size: 3rem;}}
 
 /*Formação*/
 .formacao {background: #141414;color: #ffffff;}
@@ -68,7 +68,7 @@ img {max-width: 100%;display: block;}
 
 /*Responsivo Formação*/
 @media (max-width: 800px) {.formacao-container {grid-template-columns: 1fr;padding: 60px 20px;gap: 40px;}.formarcao .subtitulo {color: #ffffff;}.formacao-texto {font-size: 1.25rem;}.formacao-extra h3::before {position: initial;margin-bottom: 10px;}}
-@media (max-width: 400px) {.formacao .subtitulo {font-size: 3rem; color: #ffffff;}}
+@media (max-width: 500px) {.formacao .subtitulo {font-size: 3rem; color: #ffffff;}}
 
 /*Projetos*/
 .projetos {max-width: 1200px;padding: 100px 20px 60px 20px;margin: 0 auto;display: grid;grid-template-columns: 1fr;gap: 10px;}
