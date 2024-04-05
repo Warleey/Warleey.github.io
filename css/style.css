@@ -92,7 +92,7 @@ img {max-width: 100%;display: block;}
 /*Responsivo Projetos*/
 @media (max-width: 800px) {.projetos-container {display: flex; flex-direction: column; padding: 60px 20px;gap: 40px;}.projetos .subtitulo {color: #141414;font-size: 8rem;}.projetos-texto {font-size: 1.50rem;}.projeto-descricao {font-size: 0.875rem;justify-content: center;text-align: center;}.botao img {width: 25px;height: 25px;}.botao {display: flex;flex-direction: column;}}
 @media (max-width: 600px) {.projetos-container{display: flex; flex-direction: column;} .projetos-vitrine {display: none;}.projeto-descricao {font-size: 1.125rem;}}
-@media (max-width: 400px) {.projetos .subtitulo {font-size: 3rem;}.projetos-vitrine img {display: none;}.botao img {display: none;}.projetos-container{display: flex; flex-direction: column;}}
+@media (max-width: 500px) {.projetos-container{display: flex; flex-direction: column;}.projetos .subtitulo {font-size: 3rem;}.projetos-vitrine img {display: none;}.botao img {display: none;}}
 
 /*Contato*/
 .contato {background: #141414;color: #ffffff;}
@@ -104,7 +104,7 @@ img {max-width: 100%;display: block;}
 
 /*Responsivo Contato*/
 @media (max-width: 800px) {.contato-container {grid-template-columns: 1fr;padding: 60px 20px;gap: 40px;}.contato .subtitulo {color: #ffffff;}.contato-texto {font-size: 1.25rem;}.box-icones img {width: 30px;height: 30px;}}
-@media (max-width: 400px) {.contato .subtitulo {font-size: 3rem;}.projeto-descricao {padding: 10px;}}
+@media (max-width: 500px) {.contato .subtitulo {font-size: 3rem;}.projeto-descricao {padding: 10px;}}
 
 
 /*Footer Site*/
